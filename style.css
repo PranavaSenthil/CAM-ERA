@@ -1,0 +1,164 @@
+body{
+  margin: 0%;
+}
+
+.body{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0%;
+  background-image: url('wed.jpg');
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 390px;
+    margin-right: 550px;
+}
+.btn-3 {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 180px;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+.heads{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+}
+.headb{
+    margin-right: 600px;
+     width: 20%;
+    height: 12%;
+}
+.image-1{
+    height: 40%;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.about{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+.about-head{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-para{
+    color: white;
+    width: 500px;
+    line-height: 2.5;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.caro-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+    margin-top: 100px;
+}
+.os{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 400px;
+}
+.about-1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+.footer{
+  background-color: bisque;
+  height: 10vh;
+  color: #080202;
+  text-align: center;
+  width: 99vw;
+  padding: 0 0 10%;
+}
+.caro{
+    margin-top: 20px;
+}

@@ -1,0 +1,125 @@
+.img-1{
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+  text-align: center;
+  background: url('	https://wevaphotography.com/wp-content/uploads/2020/10/08_DSC09318.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow:hidden;
+}
+body{   
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.email-in{
+  background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 35.2px;
+    width: 157.2px;
+}
+.password-in{
+  background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 90px;
+    height: 35.2px;
+    width: 157.2px;
+}
+.email{
+  color: black;
+  margin-right: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.password{
+  color: black;
+  margin-right: 180px;
+  margin-bottom: 10px;
+}
+#phone{
+    color: black;
+  margin-right: 180px;
+  margin-bottom: 10px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#name{
+    color: black;
+    margin-right: 180px;
+    width: 170px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.log-para{
+    font-family: EBGaramond Italic;
+    font-size: 1.25rem;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4em;
+    text-transform: none;
+    font-weight: normal;
+    color: #fff;
+    width: 400px;
+}
+.say{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.log{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.875rem;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4em;
+    text-transform: none;
+    color: #fff;
+    font-weight: normal;
+}
+.login{
+  background: #fff;
+    box-shadow: 0 0 0 0.5px rgba(0,20,40,.1), 0 2px 8px 0 rgba(50,55,90,.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  margin-left: 485px;
+  width: 300px;
+  height: 450px;
+}
+.but{
+    width: 100px;
+    height: 12%;
+    background-color: #24A68A;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+.front{
+  height: 100%;
+  padding-top: 100px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: normal;
+  padding: 3%;
+}
+input:hover{
+  border-color: #24A68A;
+}
+.e-m{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
